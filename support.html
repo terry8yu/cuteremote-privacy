@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CuteRemote 技术支持 / Support</title>
+<style>
+  body{font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;max-width:720px;margin:0 auto;padding:40px 24px;color:#1d1d1f;line-height:1.7}
+  h1{font-size:28px}h2{font-size:19px;margin-top:30px;border-bottom:1px solid #e5e5e7;padding-bottom:6px}
+  .lang{margin:8px 0 32px;color:#6e6e73;font-size:14px}
+  details{background:#f5f5f7;border-radius:10px;padding:12px 18px;margin:10px 0}
+  summary{font-weight:600;cursor:pointer}
+  .divider{border:none;border-top:1px solid #d2d2d7;margin:48px 0}
+  .card{background:#eef3ff;border-radius:12px;padding:16px 20px;margin:16px 0}
+  code{background:#f5f5f7;padding:2px 6px;border-radius:5px;font-size:0.9em}
+</style>
+</head>
+<body>
+
+<h1>CuteRemote 技术支持</h1>
+<p class="lang">简体中文 · <a href="#english">English</a></p>
+
+<div class="card">
+<strong>联系我们：</strong><a href="mailto:yzy0@yeah.net">yzy0@yeah.net</a>（1-2 个工作日内回复 / reply within 1-2 business days）
+</div>
+
+<h2>常见问题</h2>
+
+<details>
+<summary>浏览器打不开连接页面？</summary>
+<p>① 确认菜单栏图标里服务已「开始服务」；② 确认浏览器设备与 Mac 在<strong>同一局域网</strong>；③ 地址栏输入 <code>https://你的Mac名称:9443</code>（注意是 https）；④ 首次连接会提示「证书不受信任」——这是预期行为（证书由本机自动生成，纯局域网使用），在 Safari 点「显示详细信息 → 访问此网站」，Chrome 点「高级 → 继续前往」。
+</p>
+</details>
+
+<details>
+<summary>画面是黑的 / 看不到屏幕？</summary>
+<p>需要「屏幕录制」权限：菜单栏图标 → 设置 → 权限向导，按提示在「系统设置 → 隐私与安全性 → 屏幕录制」中允许 CuteRemote，应用会自动重启生效。
+</p>
+</details>
+
+<details>
+<summary>浏览器里无法控制鼠标键盘？</summary>
+<p>远程输入需要「辅助功能」权限：菜单栏图标 → 设置 → 权限向导，在「系统设置 → 隐私与安全性 → 辅助功能」中允许 CuteRemote。不授予该权限不影响观看。
+</p>
+</details>
+
+<details>
+<summary>忘记访问密码？</summary>
+<p>在 Mac 端：菜单栏图标 → 设置 → 密码区域，清除后重新设置即可。</p>
+</details>
+
+<details>
+<summary>多台设备能同时连接吗？</summary>
+<p>可以。默认允许 3 台设备同时观看，最大可在设置中调整为 10。满员后新设备会被拒绝，需等现有设备断开。</p>
+</details>
+
+<details>
+<summary>数据会上传到云端吗？</summary>
+<p>不会。画面与输入全程在你的局域网内点对点加密传输，CuteRemote 没有云端服务器、不收集任何数据。详见<a href="./">隐私政策</a>。</p>
+</details>
+
+<hr class="divider">
+
+<h1 id="english">CuteRemote Support</h1>
+<p class="lang">English · <a href="#">简体中文</a></p>
+
+<div class="card">
+<strong>Contact us:</strong> <a href="mailto:yzy0@yeah.net">yzy0@yeah.net</a> (reply within 1-2 business days)
+</div>
+
+<h2>FAQ</h2>
+
+<details>
+<summary>The browser can't open the connection page?</summary>
+<p>1) Make sure the service is started from the menu bar icon; 2) make sure the browser device is on the <strong>same local network</strong> as the Mac; 3) type <code>https://your-mac-name:9443</code> (https, not http); 4) on first connect the browser warns about an untrusted certificate — this is expected: the certificate is generated locally on your Mac for LAN use. In Safari choose "Show Details → Visit Website"; in Chrome choose "Advanced → Proceed".
+</p>
+</details>
+
+<details>
+<summary>Black screen / no video?</summary>
+<p>Screen Recording permission is required: menu bar icon → Settings → Permission Wizard, allow CuteRemote in System Settings → Privacy & Security → Screen Recording. The app restarts itself to apply.
+</p>
+</details>
+
+<details>
+<summary>Can't control mouse/keyboard from the browser?</summary>
+<p>Remote input needs the Accessibility permission: menu bar icon → Settings → Permission Wizard, allow CuteRemote in System Settings → Privacy & Security → Accessibility. Viewing works without it.
+</p>
+</details>
+
+<details>
+<summary>Forgot the access password?</summary>
+<p>On the Mac: menu bar icon → Settings → Password section, clear and set a new one.</p>
+</details>
+
+<details>
+<summary>Can multiple devices connect at once?</summary>
+<p>Yes. 3 simultaneous connections by default, adjustable up to 10 in Settings. New devices are rejected when full.</p>
+</details>
+
+<details>
+<summary>Does any data go to the cloud?</summary>
+<p>No. Video and input travel peer-to-peer, encrypted, within your local network. CuteRemote has no cloud servers and collects no data. See the <a href="./">Privacy Policy</a>.</p>
+</details>
+
+</body>
+</html>
